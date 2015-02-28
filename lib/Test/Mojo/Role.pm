@@ -6,6 +6,8 @@ Test::Mojo::Role - Roles for Test::Mojo
 
   package Test::Mojo::Role::MyRole;
 
+  use Role::Tiny;
+
   sub is_awesome {
     my ($t, ...) = @_;
     # do some test

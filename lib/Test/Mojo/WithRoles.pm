@@ -36,6 +36,8 @@ Test::Mojo::WithRoles - Use Test::Mojo roles cleanly and safely
 
   package Test::Mojo::Role::MyRole;
 
+  use Role::Tiny;
+
   sub is_awesome {
     my ($t, ...) = @_;
     # do some test
