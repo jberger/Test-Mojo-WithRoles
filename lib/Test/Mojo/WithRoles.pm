@@ -2,6 +2,9 @@ package Test::Mojo::WithRoles;
 
 use Mojo::Base -strict;
 
+our $VERSION = '0.01';
+$VERSION = eval $VERSION;
+
 use Role::Tiny ();
 use Test::Mojo;
 
@@ -15,7 +18,7 @@ sub import {
 
 sub unimport {
   my ($class) = @_;
-  $^H{'Test::Mojo::WithRoles/enabled'} = j([]);
+  $^H{'Test::Mojo::WithRoles/enabled'} = '[]';
 }
 
 sub new {

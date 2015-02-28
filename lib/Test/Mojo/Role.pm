@@ -1,3 +1,7 @@
+package Test::Mojo::Role;
+
+1;
+
 =head1 NAME
 
 Test::Mojo::Role - Roles for Test::Mojo
