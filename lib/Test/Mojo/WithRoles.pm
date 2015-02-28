@@ -80,3 +80,30 @@ After leaving that lexical scope, the roles specified are no longer in effect I<
 Roles specified without a leading C<+> sign are assumed to be in the C<Test::Mojo::Role> namespace.
 Roles specified with a leading C<+> sign are used literally as the fully qualified package name.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<Test::Mojo>
+
+=item L<Mojolicious>
+
+=item L<Role::Tiny>
+
+=back
+
+=head1 SOURCE REPOSITORY
+
+L<http://github.com/jberger/Test-Mojo-WithRoles>
+
+=head1 AUTHOR
+
+Joel Berger, E<lt>joel.a.berger@gmail.comE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2015 by Joel Berger
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
